@@ -34,7 +34,7 @@ public class JavaJamie {
                 System.out.println("Jamie case 2 ");
                 break;
 
-            case 100:
+            case 101:
                 System.out.println("Jamie case 100 ");
 
                 int b = input.nextInt();
