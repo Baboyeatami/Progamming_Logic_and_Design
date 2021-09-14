@@ -17,51 +17,34 @@ public class JavaJamie {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
+        int a = input.nextInt();
 
-        System.out.println("Welcome to jamie store");
-        System.out.println("Enter 1 to beer option");
-        int A = input.nextInt();
+        while (a < 10) {
+            System.out.println("Main Loop");
 
-        switch (A) {
+            int x = input.nextInt();
 
-            case 1:
-                System.out.println("Jamie case 1 ");
+            if (x == 2) {
+                System.out.println("wow");
+                int y = input.nextInt();
+                while (y < 3) {
+                    System.out.println("naa nka dre sa 2nd loop");
+                    System.out.println("padayun or dili");
+                    y = input.nextInt();
+                    if (y == 1) {
+                        break;
+                    }
 
-                break;
-
-            case 2:
-                System.out.println("Jamie case 2 ");
-                break;
-
-            case 101:
-                System.out.println("Jamie case 100 ");
-
-                int b = input.nextInt();
-                if (b > 50) {
-                    System.out.println("hahahah 50 above");
-                    System.out.println("jamie");
                 }
 
-                break;
+            }
+
+            System.out.println("Padayun sa Main loop?");
+            a = input.nextInt();
 
         }
-
-        String Name = input.next();
-
-        switch (Name) {
-            case "Jamie":
-                System.out.println("Jamie case  ");
-                break;
-
-            case "Eduardo":
-                System.out.println("Eduardo case  ");
-                break;
-
-        }
-        // Create a Tindahan Program
-        //Sell at least 5 items
-        //Collect Cash and give change
 
     }
 
