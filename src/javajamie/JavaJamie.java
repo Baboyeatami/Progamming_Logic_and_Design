@@ -21,6 +21,18 @@ public class JavaJamie {
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();
 
+        for (int i = 0; i < 10; i++) {
+            System.out.println("jamie " + i);
+
+            if (i == 5) {
+                for (int j = 0; j < 10; j += 3) {
+                    System.out.println("increment by" + j);
+                }
+            } else if (i == 50) {
+                break;
+            }
+        }
+
     }
 
 }
