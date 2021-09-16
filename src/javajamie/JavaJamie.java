@@ -21,31 +21,6 @@ public class JavaJamie {
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();
 
-        while (a < 10) {
-            System.out.println("Main Loop");
-
-            int x = input.nextInt();
-
-            if (x == 2) {
-                System.out.println("wow");
-                int y = input.nextInt();
-                while (y < 3) {
-                    System.out.println("naa nka dre sa 2nd loop");
-                    System.out.println("padayun or dili");
-                    y = input.nextInt();
-                    if (y == 1) {
-                        break;
-                    }
-
-                }
-
-            }
-
-            System.out.println("Padayun sa Main loop?");
-            a = input.nextInt();
-
-        }
-
     }
 
 }
